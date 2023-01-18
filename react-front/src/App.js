@@ -1,9 +1,11 @@
 import './App.css';
+import NavbarComponent from './components/Navbar';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <NavbarComponent/>
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
