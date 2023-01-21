@@ -6,6 +6,7 @@ import { About } from './components/About';
 import { Pricing } from './components/Pricing';
 import { Recipes } from './components/Recipes';
 
+
 function App() {
   return (
     <div className="App">

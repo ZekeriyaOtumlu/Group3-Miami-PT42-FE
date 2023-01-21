@@ -1,9 +1,11 @@
 import React from "react";
+import './About.css'
 
 export const About =()=>{
     return (
     <div>
-        <h1>THis</h1>
+        <h1 style={{textAlign:'center'}}>MDDZ</h1>
+        <p></p>
     </div>
     )
 }
