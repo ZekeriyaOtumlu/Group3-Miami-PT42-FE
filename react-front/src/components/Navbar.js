@@ -4,6 +4,8 @@ import Navbar from 'react-bootstrap/Navbar';
 import {Link} from 'react-router-dom';
 import './Navbar.css'
 
+
+
 function NavbarComponent() {
   return (
     <div>
@@ -14,6 +16,8 @@ function NavbarComponent() {
             <Link to='/about'>About</Link>
             <Link to='/pricing'>Pricing</Link>
             <Link to='/Recipes'>Recipes</Link>
+            <Link to='/SignIn'>Sign In</Link>
+            <Link to='/SignUp'>Sign Up</Link>
           </Nav></Navbar>
         </Container>
       </div>
